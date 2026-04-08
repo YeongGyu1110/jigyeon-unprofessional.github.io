@@ -250,7 +250,7 @@ a {
     padding: 150px 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* gap: 60px; */
+    gap: 60px;
     align-items: center;
     position: relative;
     z-index: 1;
@@ -301,11 +301,11 @@ a {
 .stat-item {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
 }
 
 .stat-name {
-    width: 300px;
+    width: 100px;
     font-weight: 600;
     font-size: 0.9rem;
 }
